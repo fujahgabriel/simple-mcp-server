@@ -3,7 +3,7 @@
 A Model Context Protocol (MCP) server implementation that provides tools for user data management.
 
 <div align="center">
-  <img src="./inspector.png" alt="MCP Server Logo" width="200"/>
+  <img src="./inspector.png" alt="MCP Server Logo" width="100%"/>
 </div>
 
 ## Features
