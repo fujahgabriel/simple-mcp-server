@@ -68,6 +68,26 @@ npm run inspector
 
 3. The inspector will be available at `http://localhost:5173`
 
+## MCP Configuration
+
+To use this MCP server with Cursor, you need to configure it in your MCP settings. Add the following configuration to your `~/.cursor/mcp.json`:
+
+```json
+{
+  "my-mcp-server": {
+    "math": {
+      "command": "node",
+      "args": ["build/index.js"]
+    }
+  }
+}
+```
+
+Make sure to:
+1. Build the project first using `npm run build`
+2. Use the correct path to the built JavaScript file
+3. Restart Cursor after updating the configuration
+
 ## Available Tools
 
 ### get_users
